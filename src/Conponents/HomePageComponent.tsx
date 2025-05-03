@@ -15,7 +15,7 @@ const HomePageComponent = () => {
             water, save money, and protect resources for future generations. We
             provide seamless integration with smart home appliances to monitor
             your water usage in real-time. If excess usage or potential leaks
-            are detected, you'll receive instant alerts on your phone—allowing
+            are detected, you&apos;ll receive instant alerts on your phone—allowing
             you to act quickly and prevent waste. Our mission is to empower
             Californians with the tools and insights needed to make smarter
             water decisions at home. Join us in building a more sustainable
@@ -31,7 +31,7 @@ const HomePageComponent = () => {
         <div className="m-2 p-5 bg-white md:w-[400px] rounded-lg">
           <p className="font-semibold mb-5">Saving Water:</p>
           <p>
-            Saving water is essential for protecting California's limited
+            Saving water is essential for protecting California&apos;s limited
             natural resources, especially during frequent drought conditions.
             Simple actions like fixing leaks, using water-efficient appliances,
             and watering plants during cooler hours can significantly reduce
@@ -46,14 +46,14 @@ const HomePageComponent = () => {
             Checking Eligibility for Conservation Programs:
           </p>
           <p>
-            It's important to check your eligibility for water conservation
+            It&apos;s important to check your eligibility for water conservation
             programs in California, as many residents qualify for rebates, free
             upgrades, or financial assistance. These programs can make
             water-saving improvements like high-efficiency appliances or smart
             irrigation systems much more affordable. Eligibility is often based
             on your location, income, or current water provider. By taking
             advantage of these offerings, you can save money while contributing
-            to the state's long-term sustainability goals. Don't miss out on
+            to the state&apos;s long-term sustainability goals. Don&apos;t miss out on
             support that could help you conserve more and spend less.
           </p>
 
