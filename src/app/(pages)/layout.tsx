@@ -1,4 +1,3 @@
-import ChatBot from "@/components/ChatBot";
 import { Navbar, NavbarBrand } from "flowbite-react";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -94,7 +93,6 @@ export default function RootLayout({
     </div>
 </div>
 </div>
-<ChatBot/>
       </body>
     </html>
   );
