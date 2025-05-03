@@ -1,6 +1,5 @@
-import { Navbar, NavbarBrand } from "flowbite-react";
+import { NavbarComponent } from "@/components/Navbar";
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 
 
@@ -18,13 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
 <div className="bg-[#CBF3F0] min-h-screen">
-    <div className="sticky top-0 z-40">
-    <Navbar fluid rounded className="border-solid border-b-4 border-[#2EC4B6]">
-      <NavbarBrand as={Link} href="#">
-        <Image src="/assets/kamino.svg" height={70} width={70} className="mr-3 h-20" alt="Kamino"/>
-      </NavbarBrand>
-    </Navbar>
-    </div>
+  <NavbarComponent/>
 
         {children}
 
@@ -60,7 +53,7 @@ export default function RootLayout({
             <button data-tooltip-target="tooltip-new" type="button" className="inline-flex items-center justify-center w-10 h-10 font-medium bg-[#FF9F1C] rounded-full hover:bg-[#FFBF69] group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
             <Link href={"/Add"}>
                 <svg className="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                    <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
                 </svg>
                 <span className="sr-only">New item</span>
             </Link>
