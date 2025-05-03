@@ -1,3 +1,6 @@
+'use client'
+
+import ChatBot from '@/components/ChatBot'
 import { Button } from 'flowbite-react'
 import Link from 'next/link'
 import React from 'react'
@@ -36,7 +39,9 @@ const Home = () => {
             </div>
             <Link href={"https://www.watersaverprogram.com/"}>
                 <Button className="md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] cursor-pointer">Visit Website</Button>
-            </Link>        </div>
+            </Link>
+            </div>
+            <ChatBot/>
     </div>
     </div>
   )
