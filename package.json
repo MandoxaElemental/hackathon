@@ -10,7 +10,7 @@
     "postinstall": "flowbite-react patch"
   },
   "dependencies": {
-    "@botpress/webchat": "2.3",
+    "@botpress/webchat": "^1.1.1",
     "flowbite-react": "^0.11.7",
     "next": "15.3.1",
     "react": "^19.0.0",
