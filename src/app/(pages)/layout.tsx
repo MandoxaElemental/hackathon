@@ -1,4 +1,3 @@
-import { NavbarComponent } from "@/components/Navbar";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -17,7 +16,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
 <div className="bg-[#CBF3F0] min-h-screen">
-  <NavbarComponent/>
 
         {children}
 
