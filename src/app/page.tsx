@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex min-h-screen justify-center items-center">
-      <Link href={"/Dashboard"}>
+      <Link href={"/Home"}>
         <Button>Click Me</Button>
       </Link>
     </div>

@@ -1,5 +1,7 @@
+import ChatBot from "@/components/ChatBot";
 import { Navbar, NavbarBrand } from "flowbite-react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -17,10 +19,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
 <div className="bg-[#CBF3F0] min-h-screen">
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-40">
     <Navbar fluid rounded className="border-solid border-b-4 border-[#2EC4B6]">
       <NavbarBrand as={Link} href="#">
-        <img src="/assets/kamino.svg" className="mr-3 h-20" alt="Kamino"/>
+        <Image src="/assets/kamino.svg" height={70} width={70} className="mr-3 h-20" alt="Kamino"/>
       </NavbarBrand>
     </Navbar>
     </div>
@@ -28,7 +30,7 @@ export default function RootLayout({
         {children}
 
 
-<div className="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
+<div className="fixed z-40 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
     <div className="grid h-full max-w-lg grid-cols-5 mx-auto">
         <button data-tooltip-target="tooltip-home" type="button" className="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
       <Link href={"/Home"}>
@@ -92,7 +94,7 @@ export default function RootLayout({
     </div>
 </div>
 </div>
-
+<ChatBot/>
       </body>
     </html>
   );
